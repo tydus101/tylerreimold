@@ -1,53 +1,95 @@
-@import url('https://fonts.googleapis.com/css?family=Droid+Sans|Yanone+Kaffeesatz:700');
-
+@import url('https://fonts.googleapis.com/css?family=Raleway:200|Roboto');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 .font_title {
-	font-family: 'Yanone Kaffeesatz', sans-serif;
-	font-size:72pt;
-	color: #58595B;
+	font-family: 'Raleway', sans-serif;
+	font-size:60pt;
+	color:#ADB860;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	text-align: right;
+	text-align: center;
 }
 .font_title:hover{
-	color:#525AB8;
+	color:#ADB860;
 }
 
 
 .font_paragraph {
-	font-family: 'Droid Sans', sans-serif;
+	font-family: 'Roboto', sans-serif;
 	font-size:18pt;
 	color: #2F2C2A;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	text-align: right;
+	text-align: center;
 }
 
 .font_paragraph:hover {
-	color:#ADB860;
+	color:#525AB8;
 
 }
 
+.font_social{
+	color:#FFFFFF;
+	text-decoration: none;
+	font-size: 25pt;
+	text-align: center;
+	letter-spacing: 20pt;
+}
+
+
+.container, body {
+	height: 100vh;
+	overflow: hidden;
+}
+
+
 .right {
-	padding-top:15%;
+	max-width:30%;
+	width:30%;
+	float:left;
+	position: relative;
+	height: 100%;
+
 	
 }
 
 .left {
-	margin-left:17%;
-	margin-right:10%;
-	padding-top:8%;
+	max-width:70%;
+	width:70%;
+	height: 100%;
 	float:left;
-	width: 30%;
+	position: relative;
+
 }
 
+.left_inner {
+	padding-left: 5%;
+	position:relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-100%);
+
+
+}
 
 .right_image {
-	width: 25%;
-	height: auto;
+	max-width: 100%;
+	max-height: auto;
 	-webkit-filter: grayscale(100);
 	filter: grayscale(100);
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+
+}
+.right_inner {
+	display: inline-block;
+	padding-right:10%;
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+
 }
 .right_image:hover {
 	-webkit-filter: grayscale(0);
