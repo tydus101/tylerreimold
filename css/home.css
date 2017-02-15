@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:200|Roboto');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+
 .font_title {
 	font-family: 'Raleway', sans-serif;
 	font-size:60pt;
@@ -7,9 +8,6 @@
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	text-align: center;
-}
-.font_title:hover{
-	color:#ADB860;
 }
 
 
@@ -29,12 +27,24 @@
 
 .font_social{
 	color:#FFFFFF;
-	text-decoration: none;
 	font-size: 25pt;
 	text-align: center;
 	word-spacing: 10pt;
+
+}
+.font_social a {
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+	text-align: center;
+	text-decoration: none;
 }
 
+.font_social a:hover{
+	color:#7D4985;
+	font-size: 33pt;
+
+
+}
 
 .container, body {
 	height: 100vh;
@@ -82,6 +92,7 @@ body {
 .left{
 	float:left;
 	position: relative;
+	text-align: center;
 
 }
 
@@ -154,11 +165,6 @@ body {
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 
-}
-
-.right_image:hover {
-	-webkit-filter: grayscale(0);
-	filter: grayscale(0);
 }
 
 
