@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway:200|Roboto');
+@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
 @import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .font_title {
@@ -14,15 +14,10 @@
 .font_paragraph {
 	font-family: 'Roboto', sans-serif;
 	font-size:18pt;
-	color: #2F2C2A;
+	color: #FFFFFF;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	text-align: center;
-}
-
-.font_paragraph:hover {
-	color:#525AB8;
-
 }
 
 .font_social{
@@ -48,10 +43,12 @@
 
 .container, body {
 	height: 100vh;
+	line-height:10px;
 }
 
 body {
 	background-color: #403B3C;
+	background-image: /assets/pexels-photo-218434_blackened.xcf;
 }
 
 @media (min-width: 960px) {
