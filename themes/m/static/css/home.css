@@ -8,6 +8,9 @@
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	text-align: center;
+	line-height: 100px;
+	margin-bottom: 40px;
+
 }
 
 
@@ -32,6 +35,7 @@
 	transition: .2s ease-in-out;
 	text-align: center;
 	text-decoration: none;
+	line-height: 0px;
 }
 
 .font_social a:hover{
@@ -43,7 +47,6 @@
 
 .container, body {
 	height: 100vh;
-	line-height:10px;
 }
 
 body {
