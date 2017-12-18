@@ -171,7 +171,8 @@ body {
 	/*filter: grayscale(100);*/
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
-	/*border: 0px solid rgba(0, 0, 0, 0.3);*/
+/*	border: 3px solid white;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 
 }
 
