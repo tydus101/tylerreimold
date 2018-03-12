@@ -1,6 +1,6 @@
 
 .font_title {
-	font-family: 'Raleway', sans-serif;
+	font-family: 'Oxygen', sans-serif;
 	color:#ADB860;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
@@ -36,7 +36,7 @@
 }
 
 .font_social a:hover{
-	color:#7D4985;
+	color:#825B85;
 	font-size: 33pt;
 
 
@@ -129,13 +129,13 @@ body {
 	    -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-100%);
-		font-size:60pt;
+		font-size:55pt;
     }
 }
 @media (min-width: 531px)
 {
 	.left_inner {
-		font-size:60pt;
+		font-size:55pt;
 	}
 }
 @media (max-width: 530px)
