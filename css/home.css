@@ -1,23 +1,23 @@
-@import url('https://fonts.googleapis.com/css?family=Raleway|Roboto');
-@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 
 .font_title {
 	font-family: 'Raleway', sans-serif;
-	font-size:60pt;
 	color:#ADB860;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	text-align: center;
+	line-height: 100px;
+	margin-bottom: 40px;
+
 }
 
 
 .font_paragraph {
 	font-family: 'Roboto', sans-serif;
-	font-size:18pt;
 	color: #FFFFFF;
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 	text-align: center;
+	font-size:18pt;
 }
 
 .font_social{
@@ -32,6 +32,7 @@
 	transition: .2s ease-in-out;
 	text-align: center;
 	text-decoration: none;
+	line-height: 0px;
 }
 
 .font_social a:hover{
@@ -41,17 +42,26 @@
 
 }
 
+html {
+  background-image: url(/static/pexels-photo-218434_blackened.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+
 .container, body {
 	height: 100vh;
-	line-height:10px;
 }
 
 body {
-	background-color: #403B3C;
-	background-image: /assets/pexels-photo-218434_blackened.xcf;
+  /*background-color: #403B3C;*/
 }
 
-@media (min-width: 960px) {
+@media (min-width: 961px) {
 	body {
 		overflow: hidden;
 	}
@@ -60,11 +70,10 @@ body {
 .right {
 	float:left;
 	position: relative;
-
 	
 }
 
-@media (min-width: 960px)
+@media (min-width: 961px)
 {
 	.right {
 		max-width:30%;
@@ -93,7 +102,7 @@ body {
 
 }
 
-@media (min-width: 960px)
+@media (min-width: 961px)
 {
 	.left {
 		max-width:70%;
@@ -112,7 +121,7 @@ body {
 .left_inner {
 	position:relative;
 }
-@media (min-width: 960px)
+@media (min-width: 961px)
 {
 	.left_inner {
 		padding-left: 5%;
@@ -120,11 +129,19 @@ body {
 	    -webkit-transform: translateY(-50%);
         -ms-transform: translateY(-50%);
         transform: translateY(-100%);
+		font-size:60pt;
     }
 }
-@media (max-width: 960px)
+@media (min-width: 531px)
 {
 	.left_inner {
+		font-size:60pt;
+	}
+}
+@media (max-width: 530px)
+{
+	.left_inner {
+		font-size:40pt;
 	}
 }
 
@@ -132,7 +149,7 @@ body {
 	position: relative;
 }
 
-@media (min-width: 960px)
+@media (min-width: 961px)
 {
 
 	.right_inner {
@@ -150,17 +167,19 @@ body {
 	.right_inner {
 		display: block;
 		margin: 0 auto;
-		width: 50%;
+		width: 60%;
 	}
 }
 
 .right_image {
 	max-width: 100%;
 	max-height: auto;
-	-webkit-filter: grayscale(100);
-	filter: grayscale(100);
+	/*-webkit-filter: grayscale(100);*/
+	/*filter: grayscale(100);*/
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
+/*	border: 3px solid white;*/
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5);
 
 }
 
